@@ -2618,11 +2618,11 @@ install_xray_ws_tls() {
     nginx_systemd
     tls_type
     basic_information
-    vless_link_image_choice
     service_restart
     enable_process_systemd
     acme_cron_update
     auto_update
+    vless_link_image_choice
     show_information
 }
 
@@ -2652,11 +2652,11 @@ install_xray_xtls() {
     nginx_systemd
     tls_type
     basic_information
-    vless_link_image_choice
     service_restart
     enable_process_systemd
     acme_cron_update
     auto_update
+    vless_link_image_choice
     show_information
 }
 
@@ -2684,10 +2684,10 @@ install_xray_ws_only() {
     port_exist_check "${gport}"
     xray_conf_add
     basic_information
-    vless_link_image_choice
     service_restart
     enable_process_systemd
     auto_update
+    vless_link_image_choice
     show_information
 }
 
