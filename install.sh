@@ -1,7 +1,7 @@
 #!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-stty erase ^?
+#stty erase ^?
 
 cd "$(
     cd "$(dirname "$0")" || exit
@@ -34,7 +34,7 @@ OK="${Green}[OK]${Font}"
 Error="${RedW}[错误]${Font}"
 Warning="${RedW}[警告]${Font}"
 
-shell_version="1.9.3.10"
+shell_version="1.9.3.11"
 shell_mode="未安装"
 tls_mode="None"
 ws_grpc_mode="None"
